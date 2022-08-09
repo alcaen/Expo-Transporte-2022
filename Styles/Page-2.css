@@ -6,13 +6,19 @@
         'opsz' 48,
 }
 
+.page-2-info-container {
+    display: flex;
+    justify-content: center;
+}
+
 .page-2-info {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 41em;
-    margin-right: 41em;
+    max-width: 37em;
     margin-top: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
 
 }
 
@@ -58,10 +64,13 @@
 }
 
 .grid-page-2-head:hover,
-.grid-page-2-head:hover>.grid-page-2-title {
+.grid-page-2-head:hover>.grid-page-2-title,
+.grid-page-2-head:hover>.material-symbols-rounded {
     color: rgb(224, 69, 103);
     transition: 0.5s;
+    font-variation-settings: 'FILL' 1;
 }
+
 
 .material-symbols-rounded {
     align-self: center;
@@ -72,6 +81,7 @@
 span.size-48 {
     font-size: 48px;
     font-variation-settings: 'OPSZ' 48;
+
 }
 
 .grid-page-2-title {

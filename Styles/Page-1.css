@@ -18,6 +18,7 @@
     margin-left: 0.5em;
     font-family: Roboto;
     font-weight: 700;
+    flex: 1;
 }
 
 .logo1 {
@@ -35,27 +36,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 1em;
+    margin-right: 1em;
+
+
 }
 
 .tittle_div {
     color: white;
+
 }
 
 .tittle_div p {
+    margin-bottom: 3em;
     font-size: 1.6em;
     font-family: Roboto;
     font-weight: 400;
+
 }
 
 .div_imgBanner {
     margin-left: 2.5em;
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
+    min-width: 5em;
 }
 
 .imgBanner {
     max-width: 100%;
     max-height: 100%;
+
 }
 
 h1 {
@@ -73,9 +85,11 @@ h1 {
     cursor: pointer;
     font-family: Roboto;
     font-weight: 700;
-}
-
-a {
     text-decoration: none;
     color: aliceblue;
+}
+
+.buttonBanner:hover {
+    background-color: rgb(81, 220, 255);
+    transition: 0.5s;
 }
