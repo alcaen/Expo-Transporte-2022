@@ -31,6 +31,27 @@
     max-height: 100%;
 }
 
+@media (max-width:810px) {
+    .imgBanner {
+        display: none;
+    }
+
+    .tittle_div {
+        margin-left: 2em;
+        font-size: 0.9em;
+    }
+
+    .banner_div {
+        padding-top: 0em;
+        margin-top: -1em;
+    }
+
+    .tittle_div p {
+        margin-bottom: 1.5em;
+
+    }
+}
+
 .banner_div {
     padding-top: 2em;
     display: flex;
