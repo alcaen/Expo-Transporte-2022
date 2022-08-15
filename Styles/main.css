@@ -1,7 +1,9 @@
 body {
     margin: 0;
     background-color: rgb(247, 248, 249);
-    /* height: 100%; */
+    padding: 0;
+    color: white;
+    font-family: Roboto;
 }
 
 html {
