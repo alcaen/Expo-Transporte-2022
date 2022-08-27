@@ -1,3 +1,5 @@
+@import url(Palette.css);
+
 .material-symbols-rounded {
     font-variation-settings:
         'FILL' 0,
@@ -27,14 +29,14 @@
     font-family: Roboto, sans-serif;
     font-weight: 700;
     text-align: center;
-    color: black;
+    color: var(--text2);
 
 }
 
 .page-2-description {
     font-size: 2em;
     font-family: Roboto, sans-serif;
-    color: rgb(112, 112, 112);
+    color: var(--text4);
     font-size: 1.2em;
     text-align: center;
     line-height: 1.7;
@@ -74,7 +76,7 @@
 }
 
 .grid-page-2-container {
-    background-color: white;
+    background-color: var(--text1);
     height: 110%;
     border-radius: 2%;
 }
@@ -88,7 +90,7 @@
 .grid-page-2-head:hover,
 .grid-page-2-head:hover>.grid-page-2-title,
 .grid-page-2-head:hover>.material-symbols-rounded {
-    color: rgb(224, 69, 103);
+    color: var(--secondary);
     transition: 0.5s;
     font-variation-settings: 'FILL' 1;
 }
@@ -96,7 +98,7 @@
 
 .material-symbols-rounded {
     align-self: center;
-    color: rgb(224, 69, 103);
+    color: var(--secondary);
     margin-bottom: 0.5em;
 }
 
@@ -108,7 +110,7 @@ span.size-48 {
 
 .grid-page-2-title {
     align-self: center;
-    color: black;
+    color: var(--text2);
     font-family: Roboto, sans-serif;
     font-size: 1.5em;
     font-weight: 700;

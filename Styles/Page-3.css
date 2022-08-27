@@ -1,3 +1,4 @@
+@import url(Palette.css);
 @import url(https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap);
 
 .card-list {
@@ -6,7 +7,7 @@
     padding: 3rem;
     overflow-x: scroll;
     /* Overflow-x makes that only the elements inside it scroll to x not all the page  */
-    background-color: #020E30;
+    background-color: var(--primary);
     margin-top: 3rem;
 }
 
@@ -19,8 +20,8 @@
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 16px;
-    background-color: #071B50;
-    box-shadow: -1rem 0 3rem #000;
+    background-color: var(--terceary);
+    box-shadow: -0.5rem 0 2rem #000;
     transition: 0.2s;
 }
 
@@ -68,28 +69,32 @@
     width: 52px;
     height: 50px;
     fill: none;
-    stroke: #E04567;
+    stroke: var(--secondary);
     stroke-width: 8;
     stroke-linecap: round;
 }
 
 .author-name-prefix {
-    color: rgb(255, 255, 255);
+    color: var(--text2);
     font-weight: 700;
     font-size: 20px;
+}
+
+.card {
+    color: var(--text2);
 }
 
 .card-header a {
     text-decoration: none;
     font-size: 25px;
     font-weight: 700;
-    color: white;
+    color: var(--text2);
 }
 
 .card-header a:hover,
 .card-header p:hover,
 .author-name:hover {
-    background: linear-gradient(90deg, rgba(197, 71, 255, 1), #E04567);
+    background: linear-gradient(90deg, var(--secondary), var(--primary));
     text-shadow: none;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;

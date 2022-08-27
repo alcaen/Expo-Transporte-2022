@@ -1,6 +1,8 @@
+@import url(Palette.css);
+
 .pag1 {
-    background: rgb(36, 13, 139);
-    background: linear-gradient(142deg, rgba(36, 13, 139, 1) 21%, rgba(55, 35, 143, 1) 67%, rgba(197, 71, 255, 1) 100%);
+    /* background: rgb(36, 13, 139); */
+    background: linear-gradient(142deg, var(--secondary) 5%, var(--primary) 100%, var(--terceary) 100%);
     /* height: 85%; */
     padding-top: 6em;
     padding-bottom: 2em;
@@ -44,7 +46,7 @@
 }
 
 .tittle_div {
-    color: white;
+    color: var(--text1);
 
 }
 

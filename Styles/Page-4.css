@@ -1,3 +1,5 @@
+@import url(Palette.css);
+
 .footer-container {
     padding-top: 1rem;
     display: flex;
@@ -12,14 +14,14 @@
 .footer-left {
     flex: 1;
     display: grid;
-    grid-template-columns: 60px 1fr;
+    grid-template-columns: 80px 1fr;
     max-width: 700px;
     min-width: 350px;
     margin-right: 100px;
 }
 
 .company-logo-container {
-    height: 30px;
+    height: 80px;
     margin-left: 1rem;
 }
 
@@ -55,7 +57,7 @@
 }
 
 .footer-mid a div:hover {
-    background: linear-gradient(90deg, rgba(197, 71, 255, 1), #E04567);
+    background: linear-gradient(90deg, var(--secondary), var(--primary));
     text-shadow: none;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -107,13 +109,13 @@
 
 
 .final-section {
-    background-color: black;
+    background-color: var(--text2);
     font-size: 15px;
 }
 
 .final-section a {
     text-decoration: none;
-    color: white;
+    color: var(--text1);
 }
 
 .final-section i {
@@ -138,7 +140,7 @@
 
     .footer-left {
         margin-left: 10px;
-        grid-template-columns: 40px 1fr;
+        grid-template-columns: 70px 1fr;
         margin-bottom: 10px;
     }
 
